@@ -1,5 +1,3 @@
-using System;
-
 namespace dotNet_Autenticador.Models
 {
     public class ErrorViewModel

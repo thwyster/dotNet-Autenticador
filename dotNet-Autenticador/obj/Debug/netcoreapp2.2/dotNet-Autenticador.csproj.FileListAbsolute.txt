@@ -31,3 +31,16 @@ C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\dot
 C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\dotNet-Autenticador.dll
 C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\dotNet-Autenticador.pdb
 C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\dotNet-Autenticador.csproj.CopyComplete
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Account\AccessDenied.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Account\LoggedOut.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Account\Logout.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Consent\Index.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Device\Success.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Device\UserCodeCapture.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Device\UserCodeConfirmation.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Diagnostics\Index.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Grants\Index.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Redirect.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ScopeListItem.g.cshtml.cs
+C:\GIT\RONNY\dotNet-Autenticador\dotNet-Autenticador\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationSummary.g.cshtml.cs

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "e6b98b35c8e240b0abf20df19e7fcb52d86be23b"
+    "signature": "f6b1f62db6654d2aba79ad1072d95fc93ba5c575"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.2": {
       "dotNet-Autenticador/1.0.0": {
         "dependencies": {
+          "IdentityServer4": "2.5.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
@@ -34,6 +35,62 @@
         },
         "compile": {
           "dotNet-Autenticador.dll": {}
+        }
+      },
+      "IdentityModel/3.10.10": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.dll": {
+            "assemblyVersion": "3.10.10.0",
+            "fileVersion": "3.10.10.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityServer4/2.5.0": {
+        "dependencies": {
+          "IdentityModel": "3.10.10",
+          "IdentityServer4.Storage": "2.5.0",
+          "Microsoft.AspNetCore.Authentication": "2.2.0",
+          "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "2.2.0",
+          "Microsoft.AspNetCore.Authorization": "2.2.0",
+          "Microsoft.AspNetCore.Cors": "2.2.0",
+          "Microsoft.Extensions.Caching.Memory": "2.2.0",
+          "Microsoft.Extensions.Http": "2.2.0",
+          "Microsoft.Extensions.Logging": "2.2.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0",
+          "System.IdentityModel.Tokens.Jwt": "5.3.0",
+          "System.Security.Cryptography.Cng": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.dll": {}
+        }
+      },
+      "IdentityServer4.Storage/2.5.0": {
+        "dependencies": {
+          "IdentityModel": "3.10.10",
+          "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {}
         }
       },
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.7.9": {},
@@ -3238,6 +3295,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "IdentityModel/3.10.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1CZDkFEZC5hU615GrTXLoamLlLlZVNURnjbdjELw3keSRcPufSIwP5NI0f8quUBV/beuKy9yIqYemmMIDIY87w==",
+      "path": "identitymodel/3.10.10",
+      "hashPath": "identitymodel.3.10.10.nupkg.sha512"
+    },
+    "IdentityServer4/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IgXtZJnyrdC+zv7DSk0e0teDbNurid1yYOj/DWf5JitN7qUz+xmUMPIh3mXy7IUyLofGnmFfvbOfoUKZY5sy6g==",
+      "path": "identityserver4/2.5.0",
+      "hashPath": "identityserver4.2.5.0.nupkg.sha512"
+    },
+    "IdentityServer4.Storage/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-phhkhDcGfxLquNZA2biFt5S5XIUy0QUeD1c0dMfsdW3Lf4OdW47eO/YbpR3rxhBXKem25NmS6W3OAOXo94TIyw==",
+      "path": "identityserver4.storage/2.5.0",
+      "hashPath": "identityserver4.storage.2.5.0.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.7.9": {
       "type": "package",

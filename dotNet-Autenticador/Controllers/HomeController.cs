@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using dotNet_Autenticador.Models;
 using Microsoft.AspNetCore.Mvc;
-using dotNet_Autenticador.Models;
+using System.Diagnostics;
 
 namespace dotNet_Autenticador.Controllers
 {
